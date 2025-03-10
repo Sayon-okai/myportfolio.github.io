@@ -115,8 +115,10 @@ a:hover {
 /* greeting section */
  .greeting-sect .hello h2 {
          color: #fff;
-         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         font-family: 'Times New Roman', Times, serif;
          font-size: 35px;
+         padding: 0 0 0 10px;
+      
 
  }
 
@@ -133,6 +135,8 @@ a:hover {
              height: 64px;
              margin: 0 0 25px 0;
              padding: 12px 0 0 5px;
+             border-bottom-right-radius: 60px;
+             border-top-left-radius: 60px;
  }
  .greeting-sect  {
         width: 550px;
@@ -145,9 +149,14 @@ a:hover {
 
 /* Dev banner image  */
 .img-banner {
-              width: 650px;
-              height: 399px;
+              width: 750px;
+              height: 430px;
               margin: 15px 0 0 525px;
+}
+.img-banner:hover{
+            transition: 1s ease;
+            width: 755px;
+            height: 450px;
 }
 
 /* Mouse Icon */
@@ -162,4 +171,37 @@ a:hover {
 .icon-mouse {
       width: 50px;
       height: auto;
+}
+
+    /* Buttons  */
+.btn-cv {
+           width: 160px;
+           height: 45px;
+           background: #FF4900;
+           font-family: 'Times New Roman', Times, serif;
+           border: 1px solid #FF4900;
+           border-radius: 10px;
+}
+
+
+.btn-work {
+    width: 141px;
+    height: 45px;
+    background: #ff480000;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #e7e0dd69;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+.btn-work:hover {
+    background: #FF4900;
+ 
+}
+
+.btn-work a:hover {
+    font-size: 1.5em;
+    transition: 1s ease-in-out;
+ 
 }
